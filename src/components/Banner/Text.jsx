@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Banner.module.css';
-import logo from '../../../public/img/logo.png'
+import logo from '../../../../public/img/logo.png'
 
 const Text = () => {
     return (
