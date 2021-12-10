@@ -12,7 +12,7 @@ const Text = () => {
                 will go to creating Communal and <br/> Development Fund
             </h3>
             <button>Mint</button>
-            <img src="/img/Fin.png"/>
+            <img src="../../img/013.png"/>
 
         </div>
     )
