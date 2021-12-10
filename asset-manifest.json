@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/aicasso/static/css/main.61a1ebec.chunk.css",
+    "main.js": "/aicasso/static/js/main.5594ba77.chunk.js",
+    "main.js.map": "/aicasso/static/js/main.5594ba77.chunk.js.map",
+    "runtime-main.js": "/aicasso/static/js/runtime-main.61b02fee.js",
+    "runtime-main.js.map": "/aicasso/static/js/runtime-main.61b02fee.js.map",
+    "static/js/2.b93e33ca.chunk.js": "/aicasso/static/js/2.b93e33ca.chunk.js",
+    "static/js/2.b93e33ca.chunk.js.map": "/aicasso/static/js/2.b93e33ca.chunk.js.map",
+    "static/js/3.77c96cff.chunk.js": "/aicasso/static/js/3.77c96cff.chunk.js",
+    "static/js/3.77c96cff.chunk.js.map": "/aicasso/static/js/3.77c96cff.chunk.js.map",
+    "index.html": "/aicasso/index.html",
+    "static/css/main.61a1ebec.chunk.css.map": "/aicasso/static/css/main.61a1ebec.chunk.css.map",
+    "static/js/2.b93e33ca.chunk.js.LICENSE.txt": "/aicasso/static/js/2.b93e33ca.chunk.js.LICENSE.txt",
+    "static/media/Banner.module.css": "/aicasso/static/media/013.3b186ec6.png",
+    "static/media/index.css": "/aicasso/static/media/sen-regular.4628e460.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61b02fee.js",
+    "static/js/2.b93e33ca.chunk.js",
+    "static/css/main.61a1ebec.chunk.css",
+    "static/js/main.5594ba77.chunk.js"
+  ]
+}
