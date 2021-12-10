@@ -1,0 +1,70 @@
+.img img{
+    width: 355px;
+    height: 395px;
+}
+.img{
+    transition: 0.3s;
+}
+.img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.img  div div:nth-child(1) span{
+    color: #F5F5F5CC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    
+}
+.img div div:nth-child(1) p{
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+
+}
+.img div div{
+    display: flex;
+    justify-content: space-between;
+        
+}
+.img > div{
+    padding: 15px 15px 20px;
+    background: #101331;
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #3274F3;
+    position: relative;
+    transform: translate(0, -4px);
+
+}
+.img  div div:nth-child(2){
+    color: #E2E2E2;
+    
+}
+.img  div div:nth-child(2) span{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+}
+.img div div:nth-child(1) p{  
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+
+}
+@media screen and (max-width: 1200px){
+    .img img{
+        width: 290px;
+        height: 320px;
+    }
+}

@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {list, galeryInfo, imgDataLeft, imgDataRight} from "./state"
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App list={list} galeryInfo={galeryInfo} imgDataLeft={imgDataLeft} imgDataRight={imgDataRight}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

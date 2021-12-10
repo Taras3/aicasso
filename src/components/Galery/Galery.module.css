@@ -1,0 +1,107 @@
+.galery .container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 21px;
+    row-gap: 40px;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 300px 0 150px;
+    position: relative;
+    
+}
+.galery{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 31.77%, rgba(0, 0, 0, 0) 100%), #141222;
+    position: relative;
+
+}
+.righcont div:nth-child(1){
+    background:  #3274F3;
+    height: 93px;
+    width: 4px;
+    margin-right: 9px;
+}
+.righcont div:nth-child(2){
+    background:  #3274F3;
+    height: 93px;
+    width: 2px;
+    margin-right: 10px;
+}
+.righcont{
+    display: flex;
+    position: absolute;
+    right: 120px;
+    top: 24px;
+    right: 150px;
+}
+.righcont div:nth-child(3){
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#F5F5F5CC;
+}
+.righcont div:nth-child(3) span{
+    font-style: italic;
+}
+.righcont div:nth-child(3) p{
+    margin-bottom: 25px;
+}
+.grad{
+    position: absolute;
+    left: -50px;
+    top: 100px;
+    width: 1100px;
+    height: 1300px;
+}
+.grad2{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 520px;
+    height: 600px;
+    transform: rotate(90deg);
+}
+@media screen and (max-width: 1200px){
+    .righcont div:nth-child(1){
+        height: 70px;
+      
+    }
+    .righcont div:nth-child(2){
+        height: 70px;
+      
+    }
+    .righcont div:nth-child(3) p{
+        margin-bottom: 5px;
+    }
+    .galery .container{
+        column-gap: 15px;
+        row-gap: 30px;
+        max-width: 910px;
+        padding: 150px 0 90px;
+                
+    }
+    .grad{
+        position: absolute;
+        left: -50px;
+        top: 100px;
+        width: 600px;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 990px){
+    .grad, .grad2{
+       display: none;
+    }
+    .galery .container{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 21px;
+        row-gap: 40px;
+        max-width: 610px;
+        justify-content: center;
+        padding: 110px 0 50px;
+        
+    }
+}

@@ -1,0 +1,16 @@
+.bannerbottom{
+    height: 200px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 31.77%, rgba(0, 0, 0, 0) 100%),
+    linear-gradient(0deg, #141222, #141222);
+    
+}
+@media screen and (max-width: 1200px){
+    .bannerbottom{
+        height: 130px;
+    }
+}
+@media screen and (max-width: 990px){
+    .bannerbottom{
+        height: 90px;
+    }
+}

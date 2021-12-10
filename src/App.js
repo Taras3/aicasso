@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
+import Banner from './components/Banner/Banner';
+import Bannerbottom from './components/Bannerbottom/Bannerbottom';
+import Block from './components/Block/Block';
+import Footer from './components/Fotter/Footer';
+import Galery from './components/Galery/Galery';
+import Header from './components/Header/Header';
+import Info from './components/Inform/Inform';
+import Litlimg from './components/Litlimg/Litlimg';
 import './App.css';
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header list={props.list}/>
+      <Banner />
+      <Bannerbottom />
+      <Info />
+      <Galery galeryInfo={props.galeryInfo}/>
+      <Block />
+      <Litlimg imgDataLeft={props.imgDataLeft} imgDataRight={props.imgDataRight}/>
+      <Footer />
+
     </div>
-  );
+  )
 }
 
 export default App;
