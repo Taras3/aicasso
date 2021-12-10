@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Header.module.css';
 import Menu from './Nav/Menu';
+import logo from '../../../public/img/logo.png'
 
 
 
@@ -11,7 +12,7 @@ const Header = (props) => {
         <header>
             <div className={s.container}>
                <div className={s.leftcont}>
-                   <img src='/img/logo.png' alt="logo"/>
+                   <img src={logo} alt="logo"/>
                    <p>Leading the way in exploring Ai ART
                    </p>
                 </div>
