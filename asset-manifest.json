@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aicasso/static/css/main.61a1ebec.chunk.css",
-    "main.js": "/aicasso/static/js/main.5594ba77.chunk.js",
-    "main.js.map": "/aicasso/static/js/main.5594ba77.chunk.js.map",
+    "main.js": "/aicasso/static/js/main.5fd83177.chunk.js",
+    "main.js.map": "/aicasso/static/js/main.5fd83177.chunk.js.map",
     "runtime-main.js": "/aicasso/static/js/runtime-main.61b02fee.js",
     "runtime-main.js.map": "/aicasso/static/js/runtime-main.61b02fee.js.map",
     "static/js/2.b93e33ca.chunk.js": "/aicasso/static/js/2.b93e33ca.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.61b02fee.js",
     "static/js/2.b93e33ca.chunk.js",
     "static/css/main.61a1ebec.chunk.css",
-    "static/js/main.5594ba77.chunk.js"
+    "static/js/main.5fd83177.chunk.js"
   ]
 }
