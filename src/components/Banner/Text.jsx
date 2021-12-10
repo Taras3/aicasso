@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Banner.module.css';
+import logo from '../../public/img/logo.png'
 
 const Text = () => {
     return (
@@ -12,7 +13,7 @@ const Text = () => {
                 will go to creating Communal and <br/> Development Fund
             </h3>
             <button>Mint</button>
-            <img src="../../img/013.png"/>
+            <img src={logo}/>
 
         </div>
     )
