@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Header.module.css';
 import Menu from './Nav/Menu';
-import logo from '../../img/013.png'
+import logo from '../../img/logo.png'
 
 
 
